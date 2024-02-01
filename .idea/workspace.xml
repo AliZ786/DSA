@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="Initialized the project">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Queue/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyDataStructuresProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Deque/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Deque/DequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Queue/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Queue/QueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2bi3MyluuDZuLPZT3l3HTnjUaTQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,62 +49,69 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.All in MyDataStructuresProject.executor": "Run",
+    "JUnit.DequeTest.testAddAndRemove.executor": "Run",
+    "JUnit.DequeTest.testAddFirstAndRemoveFirst.executor": "Run",
     "JUnit.QueueTest (1).executor": "Run",
     "JUnit.QueueTest.executor": "Run",
+    "JUnit.QueueTest.testEnqueueAndDequeue (1).executor": "Run",
     "JUnit.QueueTest.testEnqueueAndDequeue.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Ali/IdeaProjects/DSA-Java/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.QueueTest (1)">
+  <component name="RunManager" selected="JUnit.All in MyDataStructuresProject">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DSA-Java" />
+      <module name="MyDataStructuresProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA-Java" />
+    <configuration name="All in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DequeTest.testAddAndRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DequeTest" />
+      <option name="METHOD_NAME" value="testAddAndRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DequeTest.testAddFirstAndRemoveFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DequeTest" />
+      <option name="METHOD_NAME" value="testAddFirstAndRemoveFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.testEnqueueAndDequeue (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Queue" />
-      <option name="MAIN_CLASS_NAME" value="Queue.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testEnqueueAndDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Queue" />
-      <option name="MAIN_CLASS_NAME" value="Queue.QueueTest" />
       <option name="METHOD_NAME" value="testEnqueueAndDequeue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -111,17 +120,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueueTest (1)" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue" />
+        <item itemvalue="JUnit.All in MyDataStructuresProject" />
+        <item itemvalue="JUnit.DequeTest.testAddAndRemove" />
+        <item itemvalue="JUnit.DequeTest.testAddFirstAndRemoveFirst" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
       </set>
     </attachedChunks>
   </component>

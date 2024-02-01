@@ -1,4 +1,4 @@
-import queue.Queue;
+import Queue.Queue;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,7 +6,7 @@ public class QueueTest {
 
     @Test
     void testEnqueueAndDequeue() {
-        queue.Queue<Integer> queue = new Queue<>();
+        Queue<Integer> queue = new Queue<Integer>();
 
         assertTrue(queue.isEmpty());
         assertEquals(0, queue.size());
