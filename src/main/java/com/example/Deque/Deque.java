@@ -1,4 +1,4 @@
-package Deque;
+package com.example.Deque;
 
 import java.util.LinkedList;
 public class Deque<T> {

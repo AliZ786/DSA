@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="Added deque data structures and tests">
+    <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="last try seriously">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyDataStructuresProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyDataStructuresProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Deque/DequeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Queue/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deque/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Deque/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Deque/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Queue/Queue.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.All in MyDataStructuresProject.executor": "Run",
+    "JUnit.Deque in MyDataStructuresProject.executor": "Run",
     "JUnit.DequeTest.executor": "Run",
     "JUnit.DequeTest.testAddAndRemove (1).executor": "Run",
     "JUnit.DequeTest.testAddAndRemove.executor": "Run",
@@ -50,6 +55,7 @@
     "JUnit.QueueTest.executor": "Run",
     "JUnit.QueueTest.testEnqueueAndDequeue (1).executor": "Run",
     "JUnit.QueueTest.testEnqueueAndDequeue.executor": "Run",
+    "JUnit.java in MyDataStructuresProject.executor": "Run",
     "JUnit.test in MyDataStructuresProject (1).executor": "Run",
     "JUnit.test in MyDataStructuresProject.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -59,7 +65,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Projects/DSA/src/test/test/java",
+    "last_opened_file_path": "E:/Projects/DSA/src/test/java/com/example",
     "onboarding.tips.debug.path": "C:/Users/Ali/IdeaProjects/DSA-Java/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -74,26 +80,17 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.java in MyDataStructuresProject">
-    <configuration name="Deque in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyDataStructuresProject" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/Deque" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeTest.testAddAndRemove (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Deque in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Deque.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Deque" />
-      <option name="MAIN_CLASS_NAME" value="Deque.DequeTest" />
-      <option name="METHOD_NAME" value="testAddAndRemove" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/Deque" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in MyDataStructuresProject" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test in MyDataStructuresProject (1)" />
         <item itemvalue="JUnit.Deque in MyDataStructuresProject" />
         <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue" />
-        <item itemvalue="JUnit.test in MyDataStructuresProject (1)" />
-        <item itemvalue="JUnit.DequeTest.testAddAndRemove (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,12 +193,65 @@
       <option name="project" value="LOCAL" />
       <updated>1706775905183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed issues with the tests not running properly">
+      <option name="closed" value="true" />
+      <created>1706779432327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706779432327</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed the yml file">
+      <option name="closed" value="true" />
+      <created>1706779793486</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706779793486</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed the yml file">
+      <option name="closed" value="true" />
+      <created>1706780014887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706780014887</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Hot fix">
+      <option name="closed" value="true" />
+      <created>1706780684421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706780684421</updated>
+    </task>
+    <task id="LOCAL-00010" summary="last try">
+      <option name="closed" value="true" />
+      <created>1706781027539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706781027539</updated>
+    </task>
+    <task id="LOCAL-00011" summary="last try seriously">
+      <option name="closed" value="true" />
+      <created>1706781139416</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706781139416</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized the project" />
     <MESSAGE value="Added deque data structures and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added deque data structures and tests" />
+    <MESSAGE value="Fixed issues with the tests not running properly" />
+    <MESSAGE value="Changed the yml file" />
+    <MESSAGE value="Hot fix" />
+    <MESSAGE value="last try" />
+    <MESSAGE value="last try seriously" />
+    <option name="LAST_COMMIT_MESSAGE" value="last try seriously" />
   </component>
 </project>

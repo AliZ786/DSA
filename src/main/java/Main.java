@@ -1,5 +1,5 @@
-import Queue.Queue;
-import Deque.Deque;
+import com.example.Queue.Queue;
+import com.example.Deque.Deque;
 
 public class Main {
     public static void main(String[] args) {
