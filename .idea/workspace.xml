@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="Added deque data structures and tests">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDataStructuresProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyDataStructuresProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Deque/DequeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Queue/QueueTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.All in MyDataStructuresProject.executor": "Run",
+    "JUnit.DequeTest.executor": "Run",
     "JUnit.DequeTest.testAddAndRemove (1).executor": "Run",
     "JUnit.DequeTest.testAddAndRemove.executor": "Run",
     "JUnit.DequeTest.testAddFirstAndRemoveFirst.executor": "Run",
@@ -46,6 +50,8 @@
     "JUnit.QueueTest.executor": "Run",
     "JUnit.QueueTest.testEnqueueAndDequeue (1).executor": "Run",
     "JUnit.QueueTest.testEnqueueAndDequeue.executor": "Run",
+    "JUnit.test in MyDataStructuresProject (1).executor": "Run",
+    "JUnit.test in MyDataStructuresProject.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -53,18 +59,25 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/DSA/src/test/test/java",
     "onboarding.tips.debug.path": "C:/Users/Ali/IdeaProjects/DSA-Java/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.QueueTest.testEnqueueAndDequeue">
-    <configuration name="All in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\DSA\src\test\test\java" />
+      <recent name="E:\Projects\DSA\src\test\test\java\Deque" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.java in MyDataStructuresProject">
+    <configuration name="Deque in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/Deque" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,26 +93,6 @@
       <option name="PACKAGE_NAME" value="Deque" />
       <option name="MAIN_CLASS_NAME" value="Deque.DequeTest" />
       <option name="METHOD_NAME" value="testAddAndRemove" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DequeTest.testAddAndRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyDataStructuresProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DequeTest" />
-      <option name="METHOD_NAME" value="testAddAndRemove" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DequeTest.testAddFirstAndRemoveFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyDataStructuresProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DequeTest" />
-      <option name="METHOD_NAME" value="testAddFirstAndRemoveFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,13 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in MyDataStructuresProject (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in MyDataStructuresProject" />
+        <item itemvalue="JUnit.Deque in MyDataStructuresProject" />
         <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue" />
+        <item itemvalue="JUnit.test in MyDataStructuresProject (1)" />
         <item itemvalue="JUnit.DequeTest.testAddAndRemove (1)" />
-        <item itemvalue="JUnit.All in MyDataStructuresProject" />
-        <item itemvalue="JUnit.DequeTest.testAddAndRemove" />
-        <item itemvalue="JUnit.DequeTest.testAddFirstAndRemoveFirst" />
       </list>
     </recent_temporary>
   </component>
