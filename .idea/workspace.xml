@@ -70,20 +70,27 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in MyDataStructuresProject">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="MyDataStructuresProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QueueTest.testEnqueueAndDequeue">
     <configuration name="All in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DequeTest.testAddAndRemove (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDataStructuresProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Deque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Deque" />
+      <option name="MAIN_CLASS_NAME" value="Deque.DequeTest" />
+      <option name="METHOD_NAME" value="testAddAndRemove" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,10 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testEnqueueAndDequeue (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTest.testEnqueueAndDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueTest" />
       <option name="METHOD_NAME" value="testEnqueueAndDequeue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -120,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue" />
+        <item itemvalue="JUnit.DequeTest.testAddAndRemove (1)" />
         <item itemvalue="JUnit.All in MyDataStructuresProject" />
         <item itemvalue="JUnit.DequeTest.testAddAndRemove" />
         <item itemvalue="JUnit.DequeTest.testAddFirstAndRemoveFirst" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue (1)" />
       </list>
     </recent_temporary>
   </component>
