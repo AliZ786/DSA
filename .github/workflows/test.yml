@@ -1,4 +1,10 @@
+name: Run Tests
+
 on:
+  push:
+    branches:
+      - main
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -14,9 +20,4 @@ jobs:
           java-version: '11'
 
       - name: Build and Test with Maven
-        run: mvn clean test -X
-
-      - name: Debug Classpath
-        run: |
-          mvn dependency:build-classpath -Dmdep.outputFile=cp.txt
-          cat cp.txt
+        run: mvn clean test
