@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="last try seriously">
+    <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="Please work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDataStructuresProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyDataStructuresProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Deque/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Deque/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Deque/Deque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Queue/Queue.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,37 +34,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.All in MyDataStructuresProject.executor": "Run",
-    "JUnit.Deque in MyDataStructuresProject.executor": "Run",
-    "JUnit.DequeTest.executor": "Run",
-    "JUnit.DequeTest.testAddAndRemove (1).executor": "Run",
-    "JUnit.DequeTest.testAddAndRemove.executor": "Run",
-    "JUnit.DequeTest.testAddFirstAndRemoveFirst.executor": "Run",
-    "JUnit.QueueTest (1).executor": "Run",
-    "JUnit.QueueTest.executor": "Run",
-    "JUnit.QueueTest.testEnqueueAndDequeue (1).executor": "Run",
-    "JUnit.QueueTest.testEnqueueAndDequeue.executor": "Run",
-    "JUnit.java in MyDataStructuresProject.executor": "Run",
-    "JUnit.test in MyDataStructuresProject (1).executor": "Run",
-    "JUnit.test in MyDataStructuresProject.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Projects/DSA/src/test/java/com/example",
-    "onboarding.tips.debug.path": "C:/Users/Ali/IdeaProjects/DSA-Java/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in MyDataStructuresProject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Deque in MyDataStructuresProject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DequeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DequeTest.testAddAndRemove (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DequeTest.testAddAndRemove.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DequeTest.testAddFirstAndRemoveFirst.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest.testEnqueueAndDequeue (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest.testEnqueueAndDequeue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in MyDataStructuresProject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test in MyDataStructuresProject (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test in MyDataStructuresProject.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Projects/DSA/src/test/java/com/example&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ali/IdeaProjects/DSA-Java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\DSA\src\test\test\java" />
@@ -241,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706781139416</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Please work">
+      <option name="closed" value="true" />
+      <created>1706825102836</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706825102836</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,6 +252,7 @@
     <MESSAGE value="Hot fix" />
     <MESSAGE value="last try" />
     <MESSAGE value="last try seriously" />
-    <option name="LAST_COMMIT_MESSAGE" value="last try seriously" />
+    <MESSAGE value="Please work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Please work" />
   </component>
 </project>
