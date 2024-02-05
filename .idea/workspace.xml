@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="Please work">
-      <change afterPath="$PROJECT_DIR$/src/test/com/example/Deque/DequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/example/Queue/QueueTest.java" afterDir="false" />
+    <list default="true" id="38a788d4-ccff-4447-962a-369e8bb77fe2" name="Changes" comment="Fixed some tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/List/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/example/List/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDataStructuresProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyDataStructuresProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AliZ786&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7659df65-1ba7-4698-b0bb-6a566c892723" />
+        <option name="url" value="https://github.com/AliZ786/DSA.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -46,6 +62,7 @@
     "JUnit.DequeTest.testAddAndRemove (1).executor": "Run",
     "JUnit.DequeTest.testAddAndRemove.executor": "Run",
     "JUnit.DequeTest.testAddFirstAndRemoveFirst.executor": "Run",
+    "JUnit.LinkedListTest.testLinkedListOperations.executor": "Run",
     "JUnit.QueueTest (1).executor": "Run",
     "JUnit.QueueTest.executor": "Run",
     "JUnit.QueueTest.testEnqueueAndDequeue (1).executor": "Run",
@@ -62,7 +79,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Ali/IdeaProjects/DSA/src/test/com/example",
     "onboarding.tips.debug.path": "C:/Users/Ali/IdeaProjects/DSA-Java/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -70,11 +87,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ali\IdeaProjects\DSA\src\test\com\example" />
+      <recent name="C:\Users\Ali\IdeaProjects\DSA\src\test" />
       <recent name="E:\Projects\DSA\src\test\test\java" />
       <recent name="E:\Projects\DSA\src\test\test\java\Deque" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DequeTest">
+  <component name="RunManager" selected="JUnit.LinkedListTest.testLinkedListOperations">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyDataStructuresProject" />
@@ -82,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DequeTest.testAddAndRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
       <extension name="coverage">
         <pattern>
@@ -92,22 +111,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.Deque" />
       <option name="MAIN_CLASS_NAME" value="com.example.Deque.DequeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testAddAndRemove" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testLinkedListOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.Queue.*" />
+          <option name="PATTERN" value="com.example.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.Queue" />
-      <option name="MAIN_CLASS_NAME" value="com.example.Queue.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.example.List" />
+      <option name="MAIN_CLASS_NAME" value="com.example.List.LinkedListTest" />
+      <option name="METHOD_NAME" value="testLinkedListOperations" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,21 +149,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test in MyDataStructuresProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyDataStructuresProject" />
       <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
+      <dir value="$PROJECT_DIR$/src/test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DequeTest" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue (1)" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedListOperations" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.java in MyDataStructuresProject" />
+        <item itemvalue="JUnit.test in MyDataStructuresProject" />
+        <item itemvalue="JUnit.QueueTest.testEnqueueAndDequeue (1)" />
+        <item itemvalue="JUnit.DequeTest.testAddAndRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706825102836</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed some tests">
+      <option name="closed" value="true" />
+      <created>1707037589882</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707037589882</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,6 +299,7 @@
     <MESSAGE value="last try" />
     <MESSAGE value="last try seriously" />
     <MESSAGE value="Please work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Please work" />
+    <MESSAGE value="Fixed some tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some tests" />
   </component>
 </project>

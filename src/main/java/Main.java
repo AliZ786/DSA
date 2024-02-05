@@ -1,3 +1,4 @@
+import com.example.List.LinkedList;
 import com.example.Queue.Queue;
 import com.example.Deque.Deque;
 
@@ -36,5 +37,20 @@ public class Main {
             integerDeque.printDeque();
         }
 
-        }
+        System.out.println("\n---- Printing methods for LinkedList ----");
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.insertAtEnd(15);
+        linkedList.printList();
+        linkedList.insertAtEnd(12);
+        linkedList.printList();
+        linkedList.insertAtBeginning(5);
+        linkedList.printList();
+
+        linkedList.delete(5);
+        linkedList.printList();
+        linkedList.delete(12);
+        linkedList.delete(15);
+        linkedList.printList();
+
+    }
     }
